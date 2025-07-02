@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Conference Room A",
+    "type": "Meeting Room",
+    "description": "<h3>Conference Room A</h3><p>Our <strong>premier meeting space</strong> featuring:</p><ul><li>Seats up to 20 people</li><li>4K video conferencing system</li><li>Interactive whiteboard</li><li>High-speed WiFi</li></ul><p><em>Perfect for executive meetings and client presentations.</em></p>",
+    "capacity": 20
+  },
+  {
+    "id": 2,
+    "name": "Conference Room B",
+    "type": "Meeting Room",
+    "description": "<h3>Conference Room B</h3><p>Mid-size meeting room with <strong>modern amenities</strong>:</p><ol><li>Comfortable seating for 12</li><li>Projection system with wireless connectivity</li><li>Conference phone with noise cancellation</li><li>Climate control</li></ol><blockquote><p>Ideal for team meetings and brainstorming sessions.</p></blockquote>",
+    "capacity": 12
+  },
+  {
+    "id": 3,
+    "name": "Training Room",
+    "type": "Training Facility",
+    "description": "<h3>Training Room</h3><p>Spacious training facility designed for learning:</p><table><tr><th>Feature</th><th>Details</th></tr><tr><td>Capacity</td><td>30 people</td></tr><tr><td>Layout</td><td>Flexible seating</td></tr><tr><td>Technology</td><td>Smart board, laptops</td></tr><tr><td>Catering</td><td>Coffee station included</td></tr></table>",
+    "capacity": 30
+  },
+  {
+    "id": 4,
+    "name": "Creative Studio",
+    "type": "Creative Space",
+    "description": "<h3>Creative Studio</h3><p>Open creative workspace with:</p><ul><li><strong>Standing desks</strong> and flexible furniture</li><li>Large format displays for presentations</li><li>Art supplies and whiteboards</li><li>Natural lighting and plants</li></ul><p>Code example for booking: <code>studio.book({ date: \"2025-01-01\", duration: 4 })</code></p>",
+    "capacity": 15
+  },
+  {
+    "id": 5,
+    "name": "Phone Booth 1",
+    "type": "Private Space",
+    "description": "<h3>Phone Booth 1</h3><p>Private space for <em>confidential calls</em> and focused work.</p><p><strong>Features:</strong></p><ul><li>Soundproof design</li><li>Comfortable seating</li><li>Power outlets and USB charging</li><li>Adjustable lighting</li></ul>",
+    "capacity": 1
+  },
+  {
+    "id": 6,
+    "name": "Phone Booth 2",
+    "type": "Private Space",
+    "description": "<h3>Phone Booth 2</h3><p>Identical to Phone Booth 1, providing additional private workspace when needed.</p><p><strong>Perfect for:</strong></p><ol><li>Important phone calls</li><li>One-on-one meetings</li><li>Focused work sessions</li><li>Video interviews</li></ol>",
+    "capacity": 1
+  },
+  {
+    "id": 7,
+    "name": "Executive Boardroom",
+    "type": "Meeting Room",
+    "description": "<h3>Executive Boardroom</h3><p><strong>Luxury boardroom</strong> designed for high-level meetings:</p><ul><li>Premium leather seating for 16 executives</li><li>4K presentation displays on all walls</li><li>Professional audio/video conferencing</li><li>Climate-controlled environment</li><li>Executive catering services available</li></ul><blockquote><p>Reserved for C-level meetings and major client presentations. Advanced booking required.</p></blockquote><table><tr><th>Feature</th><th>Specification</th></tr><tr><td>Seating</td><td>Premium leather chairs</td></tr><tr><td>Display</td><td>4K multi-screen setup</td></tr><tr><td>Audio</td><td>Dolby conference system</td></tr></table>",
+    "capacity": 16
+  },
+  {
+    "id": 8,
+    "name": "Video Production Studio",
+    "type": "Creative Space",
+    "description": "<h3>Video Production Studio</h3><p>Professional-grade studio for <strong>multimedia content creation</strong>:</p><h4>Equipment Available</h4><ul><li>4K cameras with professional lenses</li><li>Professional lighting rigs</li><li>Green screen backdrop</li><li>Audio recording equipment</li><li>Video editing workstations</li></ul><p><strong>Booking Requirements:</strong></p><ol><li>24-hour advance notice</li><li>Technical briefing required</li><li>Production assistant available on request</li></ol><p><code>// Example booking API</code><br><code>const booking = await studio.reserve({ date: '2025-01-01', duration: 4, equipment: ['camera', 'lighting'] });</code></p>",
+    "capacity": 8
+  },
+  {
+    "id": 9,
+    "name": "Collaboration Hub",
+    "type": "Open Space",
+    "description": "<h3>Collaboration Hub</h3><p>Dynamic <strong>open workspace</strong> designed for team collaboration:</p><h4>Flexible Features</h4><ul><li>Modular furniture that can be reconfigured</li><li>Multiple whiteboards and flip charts</li><li>Wireless presentation capabilities</li><li>Standing desk options</li><li>Comfortable lounge seating areas</li></ul><blockquote><p>Perfect for agile teams, design thinking sessions, and creative workshops.</p></blockquote><p><em>Space can be divided into smaller areas using movable partitions.</em></p>",
+    "capacity": 25
+  },
+  {
+    "id": 10,
+    "name": "Workshop Room",
+    "type": "Training Facility",
+    "description": "<h3>Workshop Room</h3><p><strong>Hands-on learning space</strong> equipped for practical training:</p><table><tr><th>Equipment Type</th><th>Description</th><th>Quantity</th></tr><tr><td>Workbenches</td><td>Height-adjustable stations</td><td>10</td></tr><tr><td>Tools</td><td>Complete toolkit sets</td><td>20</td></tr><tr><td>Safety Equipment</td><td>Protective gear and first aid</td><td>Full set</td></tr><tr><td>Projector</td><td>Large display for demonstrations</td><td>1</td></tr></table><h4>Available Training Programs</h4><ol><li>Technical skills workshops</li><li>Safety training sessions</li><li>Equipment operation training</li><li>Certification programs</li></ol>",
+    "capacity": 20
+  },
+  {
+    "id": 11,
+    "name": "Quiet Study Area",
+    "type": "Study Space",
+    "description": "<h3>Quiet Study Area</h3><p><strong>Silent workspace</strong> for focused individual work:</p><h4>Study Environment</h4><ul><li>Individual study carrels with privacy screens</li><li>Noise-canceling design and materials</li><li>Adjustable LED task lighting</li><li>Power outlets and USB charging at every seat</li><li>Climate control for optimal comfort</li></ul><blockquote><p><strong>Silence Policy:</strong> This is a no-talking zone. Please use phone booths for calls.</p></blockquote><p><em>Reserved for deep work, research, and concentration requiring activities.</em></p>",
+    "capacity": 12
+  },
+  {
+    "id": 12,
+    "name": "Event Auditorium",
+    "type": "Auditorium",
+    "description": "<h3>Event Auditorium</h3><p>Grand <strong>auditorium space</strong> for large-scale events and presentations:</p><h4>Technical Specifications</h4><table><tr><th>Feature</th><th>Details</th></tr><tr><td>Seating</td><td>150 fixed theater-style seats</td></tr><tr><td>Stage</td><td>Professional stage with lighting</td></tr><tr><td>Audio/Visual</td><td>Full PA system with wireless mics</td></tr><tr><td>Recording</td><td>Live streaming capabilities</td></tr><tr><td>Accessibility</td><td>Wheelchair accessible seating</td></tr></table><h4>Event Types</h4><ul><li>Company all-hands meetings</li><li>Product launches and demos</li><li>Training seminars and conferences</li><li>Guest speaker presentations</li><li>Award ceremonies and celebrations</li></ul><p><code>// Event booking system</code><br><code>await auditorium.book({ type: 'all-hands', attendees: 150, av: true });</code></p>",
+    "capacity": 150
+  }
+]

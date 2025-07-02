@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "resourceId": 1,
+    "name": "Board Meeting",
+    "startDate": "2025-01-02 09:00",
+    "endDate": "2025-01-05 11:00",
+    "eventColor": "red",
+    "description": "Quarterly board meeting covering financial review and strategic planning."
+  },
+  {
+    "id": 2,
+    "resourceId": 1,
+    "name": "Client Presentation",
+    "startDate": "2025-01-03 14:00",
+    "endDate": "2025-01-08 16:00",
+    "eventColor": "blue",
+    "description": "Presenting digital transformation services to potential client."
+  },
+  {
+    "id": 3,
+    "resourceId": 2,
+    "name": "Team Standup",
+    "startDate": "2025-01-02 10:00",
+    "endDate": "2025-01-02 10:30",
+    "eventColor": "green",
+    "description": "Daily team sync covering achievements, priorities, and blockers."
+  },
+  {
+    "id": 4,
+    "resourceId": 3,
+    "name": "New Employee Training",
+    "startDate": "2025-01-08 09:00",
+    "endDate": "2025-01-10 17:00",
+    "eventColor": "orange",
+    "description": "Comprehensive onboarding program for new team members."
+  },
+  {
+    "id": 5,
+    "resourceId": 4,
+    "name": "Design Sprint",
+    "startDate": "2025-01-04 10:00",
+    "endDate": "2025-01-05 16:00",
+    "eventColor": "purple",
+    "description": "Intensive design thinking workshop for the new mobile app."
+  },
+  {
+    "id": 6,
+    "resourceId": 5,
+    "name": "Client Call",
+    "startDate": "2025-01-05 14:00",
+    "endDate": "2025-01-05 15:00",
+    "eventColor": "teal",
+    "description": "Strategic planning call with key client about project roadmap."
+  },
+  {
+    "id": 7,
+    "resourceId": 6,
+    "name": "HR Interview",
+    "startDate": "2025-01-03 11:00",
+    "endDate": "2025-01-03 12:00",
+    "eventColor": "cyan",
+    "description": "Technical interview for senior developer position."
+  },
+  {
+    "id": 8,
+    "resourceId": 7,
+    "name": "Executive Review",
+    "startDate": "2025-01-04 15:00",
+    "endDate": "2025-01-04 17:00",
+    "eventColor": "indigo",
+    "description": "Quarterly executive review of company performance and goals."
+  },
+  {
+    "id": 9,
+    "resourceId": 8,
+    "name": "Product Demo Recording",
+    "startDate": "2025-01-05 10:00",
+    "endDate": "2025-01-05 12:00",
+    "eventColor": "pink",
+    "description": "Recording product demonstration videos for marketing campaign."
+  },
+  {
+    "id": 10,
+    "resourceId": 9,
+    "name": "Brainstorming Session",
+    "startDate": "2025-01-02 14:00",
+    "endDate": "2025-01-02 16:00",
+    "eventColor": "yellow",
+    "description": "Team brainstorming for Q2 marketing initiatives and campaigns."
+  },
+  {
+    "id": 11,
+    "resourceId": 10,
+    "name": "Technical Workshop",
+    "startDate": "2025-01-09 09:00",
+    "endDate": "2025-01-09 17:00",
+    "eventColor": "brown",
+    "description": "Hands-on workshop on new development tools and frameworks."
+  },
+  {
+    "id": 12,
+    "resourceId": 11,
+    "name": "Code Review Session",
+    "startDate": "2025-01-03 09:00",
+    "endDate": "2025-01-08 11:00",
+    "eventColor": "gray",
+    "description": "Focused code review session for the authentication module."
+  },
+  {
+    "id": 13,
+    "resourceId": 12,
+    "name": "All-Hands Meeting",
+    "startDate": "2025-01-10 10:00",
+    "endDate": "2025-01-10 11:30",
+    "eventColor": "red",
+    "description": "Monthly company-wide meeting covering updates and announcements."
+  },
+  {
+    "id": 14,
+    "resourceId": 2,
+    "name": "Sprint Retrospective",
+    "startDate": "2025-01-05 16:00",
+    "endDate": "2025-01-07 17:30",
+    "eventColor": "green",
+    "description": "Team retrospective to discuss sprint outcomes and improvements."
+  },
+  {
+    "id": 15,
+    "resourceId": 3,
+    "name": "Security Training",
+    "startDate": "2025-01-11 13:00",
+    "endDate": "2025-01-14 16:00",
+    "eventColor": "orange",
+    "description": "Mandatory security awareness training for all employees."
+  }
+]

@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "resourceId": 1,
+    "name": "Board Meeting",
+    "startDate": "2025-01-02 09:00",
+    "endDate": "2025-01-03 11:00",
+    "eventColor": "red",
+    "description": "<h3>Quarterly Board Meeting</h3><p>Comprehensive quarterly review covering <strong>key business areas</strong>:</p><ul><li>Financial performance and Q4 results</li><li>Strategic planning for next quarter</li><li>Market analysis and competitive positioning</li><li>Investment opportunities and budget allocation</li></ul><blockquote><p>All board members must attend. Remote participation available via video conference.</p></blockquote><p><em>Preparation materials will be shared 48 hours in advance.</em></p>"
+  },
+  {
+    "id": 2,
+    "resourceId": 1,
+    "name": "Client Presentation",
+    "startDate": "2025-01-03 14:00",
+    "endDate": "2025-01-04 16:00",
+    "eventColor": "blue",
+    "description": "<h3>Digital Transformation Services Presentation</h3><p>Presenting our comprehensive digital solutions to <strong>TechCorp Industries</strong>:</p><ol><li>Cloud migration strategy and implementation</li><li>Data analytics and business intelligence</li><li>Automation and process optimization</li><li>Security and compliance framework</li></ol><table><tr><th>Service</th><th>Timeline</th><th>Investment</th></tr><tr><td>Cloud Migration</td><td>3 months</td><td>$150K</td></tr><tr><td>Analytics Platform</td><td>2 months</td><td>$80K</td></tr><tr><td>Process Automation</td><td>4 months</td><td>$120K</td></tr></table><p><code>// Example API integration</code><br><code>const result = await digitalTransform.migrate(clientData);</code></p>"
+  },
+  {
+    "id": 3,
+    "resourceId": 2,
+    "name": "Team Standup",
+    "startDate": "2025-01-02 10:00",
+    "endDate": "2025-01-04 10:30",
+    "eventColor": "green",
+    "description": "<h3>Daily Team Synchronization</h3><p>Regular team sync covering <strong>three key areas</strong>:</p><h4>Yesterday's Achievements</h4><ul><li>Completed user authentication module</li><li>Fixed critical payment gateway bug</li><li>Deployed hotfix to production</li></ul><h4>Today's Priorities</h4><ol><li>Review pull requests for mobile app</li><li>Complete integration testing</li><li>Update project documentation</li></ol><h4>Current Blockers</h4><blockquote><p>API rate limiting issue with third-party service - escalated to DevOps team.</p></blockquote><p><em>Next standup: Tomorrow at 10:00 AM</em></p>"
+  },
+  {
+    "id": 4,
+    "resourceId": 3,
+    "name": "New Employee Training",
+    "startDate": "2025-01-08 09:00",
+    "endDate": "2025-01-09 17:00",
+    "eventColor": "orange",
+    "description": "<h3>Comprehensive Onboarding Program</h3><p>Full-day orientation for <strong>new team members</strong> covering:</p><h4>Morning Session (9:00 - 12:00)</h4><ul><li>Company culture and values presentation</li><li>HR policies and benefits overview</li><li>IT setup and security protocols</li><li>Office tour and introductions</li></ul><h4>Afternoon Session (13:00 - 17:00)</h4><ul><li>Department-specific training</li><li>Tool and software orientation</li><li>Mentorship program assignment</li><li>Q&A with leadership team</li></ul><p><strong>Required Materials:</strong></p><table><tr><th>Item</th><th>Status</th></tr><tr><td>Employee handbook</td><td>✅ Ready</td></tr><tr><td>Laptop and credentials</td><td>✅ Prepared</td></tr><tr><td>Welcome kit</td><td>✅ Assembled</td></tr></table><blockquote><p>Lunch will be provided. Please inform HR of any dietary restrictions.</p></blockquote>"
+  },
+  {
+    "id": 5,
+    "resourceId": 4,
+    "name": "Design Sprint",
+    "startDate": "2025-01-04 10:00",
+    "endDate": "2025-01-06 16:00",
+    "eventColor": "purple",
+    "description": "<h3>Product Design Sprint Session</h3><p>Intensive <strong>design thinking workshop</strong> for the new mobile app:</p><h4>Sprint Agenda</h4><ol><li><strong>Problem Definition</strong> (10:00-11:00)<br>Understanding user pain points and business objectives</li><li><strong>Ideation Phase</strong> (11:00-13:00)<br>Brainstorming solutions and feature concepts</li><li><strong>Prototyping</strong> (14:00-15:30)<br>Creating interactive wireframes and mockups</li><li><strong>Testing & Feedback</strong> (15:30-16:00)<br>Quick user testing with stakeholders</li></ol><p><strong>Tools and Materials:</strong></p><ul><li>Figma for collaborative design</li><li>Miro for brainstorming</li><li>Post-it notes and markers</li><li>User persona templates</li></ul><p><code>// Design system component</code><br><code>const Button = styled.button`background: ${props => props.primary ? '#007bff' : '#6c757d'};`;</code></p>"
+  },
+  {
+    "id": 6,
+    "resourceId": 5,
+    "name": "Client Call",
+    "startDate": "2025-01-05 14:00",
+    "endDate": "2025-01-05 15:00",
+    "eventColor": "teal",
+    "description": "<h3>Strategic Planning Call</h3><p><strong>Confidential discussion</strong> with key client about project roadmap:</p><h4>Call Agenda</h4><ul><li>Project status review and milestone updates</li><li>Budget reallocation and resource planning</li><li>Timeline adjustments for Q2 deliverables</li><li>Risk assessment and mitigation strategies</li></ul><blockquote><p><strong>Note:</strong> This is a sensitive discussion involving financial projections and strategic decisions. All participants must sign NDA.</p></blockquote><p><strong>Attendees:</strong></p><table><tr><th>Name</th><th>Role</th><th>Required</th></tr><tr><td>Sarah Johnson</td><td>Project Manager</td><td>✅ Yes</td></tr><tr><td>Mike Chen</td><td>Technical Lead</td><td>✅ Yes</td></tr><tr><td>Client Stakeholder</td><td>Decision Maker</td><td>✅ Yes</td></tr></table><p><em>Meeting recording will be restricted. Please prepare confidential project reports.</em></p>"
+  },
+  {
+    "id": 7,
+    "resourceId": 6,
+    "name": "HR Interview",
+    "startDate": "2025-01-03 11:00",
+    "endDate": "2025-01-03 12:00",
+    "eventColor": "cyan",
+    "description": "<h3>Senior Developer Interview</h3><p><strong>Technical interview</strong> for senior developer position:</p><h4>Interview Structure</h4><ol><li><strong>Technical Assessment</strong> (30 mins)<br>Code review and architecture discussion</li><li><strong>System Design</strong> (20 mins)<br>Whiteboard session on scalable systems</li><li><strong>Cultural Fit</strong> (10 mins)<br>Team dynamics and company values</li></ol><p><strong>Evaluation Criteria:</strong></p><table><tr><th>Skill</th><th>Weight</th><th>Focus Areas</th></tr><tr><td>Technical</td><td>40%</td><td>Code quality, best practices</td></tr><tr><td>Problem Solving</td><td>30%</td><td>Algorithm thinking, debugging</td></tr><tr><td>Communication</td><td>20%</td><td>Clarity, teamwork</td></tr><tr><td>Experience</td><td>10%</td><td>Relevant background</td></tr></table><blockquote><p>Please prepare technical questions and have the coding challenge ready.</p></blockquote>"
+  },
+  {
+    "id": 8,
+    "resourceId": 7,
+    "name": "Executive Review",
+    "startDate": "2025-01-04 15:00",
+    "endDate": "2025-01-04 17:00",
+    "eventColor": "indigo",
+    "description": "<h3>Quarterly Executive Review</h3><p><strong>Strategic review</strong> of company performance and future direction:</p><h4>Review Agenda</h4><ul><li>Q4 financial performance analysis</li><li>Market position and competitive landscape</li><li>Strategic initiatives progress update</li><li>Resource allocation for Q1 priorities</li><li>Risk assessment and mitigation plans</li></ul><h4>Key Metrics Dashboard</h4><table><tr><th>Metric</th><th>Q4 Target</th><th>Actual</th><th>Status</th></tr><tr><td>Revenue</td><td>$2.5M</td><td>$2.7M</td><td>✅ Exceeded</td></tr><tr><td>Customer Acquisition</td><td>150</td><td>142</td><td>⚠️ Below target</td></tr><tr><td>Employee Satisfaction</td><td>85%</td><td>88%</td><td>✅ Exceeded</td></tr></table><blockquote><p><strong>Confidential:</strong> This meeting discusses sensitive financial and strategic information. All attendees must sign confidentiality agreements.</p></blockquote>"
+  },
+  {
+    "id": 9,
+    "resourceId": 8,
+    "name": "Product Demo Recording",
+    "startDate": "2025-01-05 10:00",
+    "endDate": "2025-01-05 12:00",
+    "eventColor": "pink",
+    "description": "<h3>Product Demo Video Production</h3><p>Professional <strong>video recording session</strong> for marketing campaign:</p><h4>Recording Schedule</h4><ol><li><strong>Setup and Testing</strong> (10:00-10:30)<br>Equipment check and lighting adjustment</li><li><strong>Feature Demonstrations</strong> (10:30-11:30)<br>Core product functionality showcase</li><li><strong>Customer Testimonials</strong> (11:30-12:00)<br>Client success stories and quotes</li></ol><p><strong>Technical Requirements:</strong></p><ul><li>4K recording for web and print materials</li><li>Multiple camera angles for dynamic editing</li><li>Professional audio with wireless microphones</li><li>Green screen for background customization</li></ul><p><code>// Production notes</code><br><code>const videoSpecs = { resolution: '4K', fps: 60, audio: 'stereo_48kHz' };</code></p><blockquote><p>Marketing team will edit final versions for website, social media, and sales presentations.</p></blockquote>"
+  },
+  {
+    "id": 10,
+    "resourceId": 9,
+    "name": "Brainstorming Session",
+    "startDate": "2025-01-02 14:00",
+    "endDate": "2025-01-02 16:00",
+    "eventColor": "yellow",
+    "description": "<h3>Q2 Marketing Campaign Brainstorming</h3><p><strong>Creative ideation session</strong> for upcoming marketing initiatives:</p><h4>Session Structure</h4><ol><li><strong>Problem Definition</strong> (14:00-14:30)<br>Current market challenges and opportunities</li><li><strong>Ideation Round 1</strong> (14:30-15:15)<br>No-judgment brainstorming with sticky notes</li><li><strong>Idea Clustering</strong> (15:15-15:45)<br>Group similar concepts and identify themes</li><li><strong>Prioritization</strong> (15:45-16:00)<br>Vote on top concepts for development</li></ol><p><strong>Target Outcomes:</strong></p><ul><li>15-20 viable campaign concepts</li><li>3-5 prioritized ideas for deeper exploration</li><li>Action items for next steps</li><li>Timeline for concept development</li></ul><blockquote><p>Bring energy, creativity, and an open mind. All ideas are welcome!</p></blockquote>"
+  },
+  {
+    "id": 11,
+    "resourceId": 10,
+    "name": "Technical Workshop",
+    "startDate": "2025-01-09 09:00",
+    "endDate": "2025-01-09 17:00",
+    "eventColor": "brown",
+    "description": "<h3>Advanced Development Tools Workshop</h3><p><strong>Hands-on training</strong> on cutting-edge development frameworks:</p><h4>Workshop Curriculum</h4><table><tr><th>Time</th><th>Topic</th><th>Activity</th></tr><tr><td>09:00-10:30</td><td>Modern JavaScript Frameworks</td><td>React 18 features demo</td></tr><tr><td>10:45-12:15</td><td>Cloud Development Tools</td><td>AWS Lambda functions</td></tr><tr><td>13:15-14:45</td><td>Container Orchestration</td><td>Kubernetes hands-on lab</td></tr><tr><td>15:00-16:30</td><td>CI/CD Pipeline Setup</td><td>GitHub Actions workshop</td></tr><tr><td>16:30-17:00</td><td>Q&A and Next Steps</td><td>Discussion and resources</td></tr></table><p><strong>Prerequisites:</strong></p><ul><li>Basic knowledge of JavaScript and Git</li><li>Laptop with development environment</li><li>Docker installed and configured</li></ul><p><code>// Example workshop exercise</code><br><code>const pipeline = await deploy.createWorkflow('production', { tests: true, deploy: 'auto' });</code></p>"
+  },
+  {
+    "id": 12,
+    "resourceId": 11,
+    "name": "Code Review Session",
+    "startDate": "2025-01-03 09:00",
+    "endDate": "2025-01-03 11:00",
+    "eventColor": "gray",
+    "description": "<h3>Authentication Module Code Review</h3><p><strong>Focused review session</strong> for critical security components:</p><h4>Review Checklist</h4><ul><li>Security best practices implementation</li><li>Input validation and sanitization</li><li>Error handling and logging</li><li>Performance optimization opportunities</li><li>Code documentation and comments</li></ul><h4>Code Quality Metrics</h4><table><tr><th>Metric</th><th>Target</th><th>Current</th></tr><tr><td>Test Coverage</td><td>>90%</td><td>87%</td></tr><tr><td>Complexity Score</td><td><10</td><td>8.5</td></tr><tr><td>Security Rating</td><td>A</td><td>A-</td></tr></table><p><strong>Review Focus Areas:</strong></p><ol><li>JWT token implementation</li><li>Password hashing algorithms</li><li>Session management logic</li><li>Multi-factor authentication flow</li></ol><blockquote><p>Critical security module - requires thorough review before production deployment.</p></blockquote>"
+  },
+  {
+    "id": 13,
+    "resourceId": 12,
+    "name": "All-Hands Meeting",
+    "startDate": "2025-01-10 10:00",
+    "endDate": "2025-01-10 11:30",
+    "eventColor": "red",
+    "description": "<h3>Monthly Company All-Hands</h3><p><strong>Company-wide meeting</strong> for updates, announcements, and team building:</p><h4>Meeting Agenda</h4><ol><li><strong>CEO Welcome & Vision</strong> (10:00-10:15)<br>Company direction and strategic updates</li><li><strong>Department Updates</strong> (10:15-10:45)<br>Progress reports from each team</li><li><strong>Q&A Session</strong> (10:45-11:00)<br>Open floor for questions and discussion</li><li><strong>Recognition & Announcements</strong> (11:00-11:30)<br>Employee spotlights and company news</li></ol><h4>Key Announcements</h4><ul><li>New product launch timeline</li><li>Office expansion plans</li><li>Employee benefits updates</li><li>Upcoming team building events</li><li>Q1 goals and objectives</li></ul><p><strong>Remote Participation:</strong></p><table><tr><th>Platform</th><th>Access</th></tr><tr><td>Zoom</td><td>company.zoom.us/allhands</td></tr><tr><td>Teams</td><td>Available as backup</td></tr><tr><td>Recording</td><td>Will be shared post-meeting</td></tr></table><blockquote><p>Attendance is encouraged for all employees. Light refreshments will be provided.</p></blockquote>"
+  },
+  {
+    "id": 14,
+    "resourceId": 2,
+    "name": "Sprint Retrospective",
+    "startDate": "2025-01-05 16:00",
+    "endDate": "2025-01-05 17:30",
+    "eventColor": "green",
+    "description": "<h3>Sprint 24 Retrospective</h3><p><strong>Team reflection</strong> on sprint outcomes and process improvements:</p><h4>Retrospective Framework</h4><ol><li><strong>Set the Stage</strong> (16:00-16:10)<br>Create safe environment for honest feedback</li><li><strong>Gather Data</strong> (16:10-16:40)<br>Timeline of events and metrics review</li><li><strong>Generate Insights</strong> (16:40-17:00)<br>Why did things happen the way they did?</li><li><strong>Decide What to Do</strong> (17:00-17:20)<br>Action items for next sprint</li><li><strong>Close</strong> (17:20-17:30)<br>Appreciation and commitment</li></ol><h4>Sprint Metrics</h4><table><tr><th>Metric</th><th>Target</th><th>Actual</th><th>Trend</th></tr><tr><td>Velocity</td><td>42 points</td><td>38 points</td><td>📉 -9%</td></tr><tr><td>Bug Rate</td><td><3%</td><td>2.1%</td><td>✅ Good</td></tr><tr><td>Code Reviews</td><td>100%</td><td>95%</td><td>⚠️ Watch</td></tr></table><blockquote><p>Focus on continuous improvement rather than blame. What can we learn and change?</p></blockquote>"
+  },
+  {
+    "id": 15,
+    "resourceId": 3,
+    "name": "Security Training",
+    "startDate": "2025-01-11 13:00",
+    "endDate": "2025-01-11 16:00",
+    "eventColor": "orange",
+    "description": "<h3>Cybersecurity Awareness Training</h3><p><strong>Mandatory training</strong> for all employees on security best practices:</p><h4>Training Modules</h4><ol><li><strong>Phishing Awareness</strong> (13:00-13:45)<br>Identifying and reporting suspicious emails</li><li><strong>Password Security</strong> (13:45-14:30)<br>Strong passwords and multi-factor authentication</li><li><strong>Data Protection</strong> (14:45-15:30)<br>Handling sensitive information and GDPR compliance</li><li><strong>Incident Response</strong> (15:30-16:00)<br>What to do when security issues arise</li></ol><p><strong>Compliance Requirements:</strong></p><ul><li>Annual training mandatory for all staff</li><li>Quiz completion required (80% pass rate)</li><li>Certificate issued upon successful completion</li><li>HR tracking for compliance audit</li></ul><h4>Security Statistics</h4><table><tr><th>Threat Type</th><th>Industry Average</th><th>Our Protection</th></tr><tr><td>Phishing Attempts</td><td>65% success</td><td>5% success</td></tr><tr><td>Data Breaches</td><td>28% companies</td><td>0 incidents</td></tr><tr><td>Ransomware</td><td>37% affected</td><td>Multi-layer defense</td></tr></table><blockquote><p><strong>Remember:</strong> Security is everyone's responsibility. When in doubt, ask the IT security team.</p></blockquote>"
+  }
+]

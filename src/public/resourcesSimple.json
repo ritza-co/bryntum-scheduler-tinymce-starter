@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Conference Room A",
+    "type": "Meeting Room",
+    "description": "Premier meeting space with modern amenities and seating for 20.",
+    "capacity": 20
+  },
+  {
+    "id": 2,
+    "name": "Conference Room B",
+    "type": "Meeting Room",
+    "description": "Mid-size meeting room with comfortable seating for 12.",
+    "capacity": 12
+  },
+  {
+    "id": 3,
+    "name": "Training Room",
+    "type": "Training Facility",
+    "description": "Spacious training facility designed for learning and development.",
+    "capacity": 30
+  },
+  {
+    "id": 4,
+    "name": "Creative Studio",
+    "type": "Creative Space",
+    "description": "Open creative workspace with flexible furniture and displays.",
+    "capacity": 15
+  },
+  {
+    "id": 5,
+    "name": "Phone Booth 1",
+    "type": "Private Space",
+    "description": "Private soundproof space for confidential calls and focused work.",
+    "capacity": 1
+  },
+  {
+    "id": 6,
+    "name": "Phone Booth 2",
+    "type": "Private Space",
+    "description": "Second private booth identical to Phone Booth 1.",
+    "capacity": 1
+  },
+  {
+    "id": 7,
+    "name": "Executive Boardroom",
+    "type": "Meeting Room",
+    "description": "Luxury boardroom for executive meetings and client presentations.",
+    "capacity": 16
+  },
+  {
+    "id": 8,
+    "name": "Video Production Studio",
+    "type": "Creative Space",
+    "description": "Professional studio for video recording and multimedia production.",
+    "capacity": 8
+  },
+  {
+    "id": 9,
+    "name": "Collaboration Hub",
+    "type": "Open Space",
+    "description": "Open area with modular furniture for team collaboration.",
+    "capacity": 25
+  },
+  {
+    "id": 10,
+    "name": "Workshop Room",
+    "type": "Training Facility",
+    "description": "Hands-on workshop space with tools and equipment for practical training.",
+    "capacity": 20
+  },
+  {
+    "id": 11,
+    "name": "Quiet Study Area",
+    "type": "Study Space",
+    "description": "Silent zone for individual work and concentrated study.",
+    "capacity": 12
+  },
+  {
+    "id": 12,
+    "name": "Event Auditorium",
+    "type": "Auditorium",
+    "description": "Large auditorium for company events and all-hands meetings.",
+    "capacity": 150
+  }
+]
