@@ -1,9 +1,218 @@
-@import "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap";
+@import "../node_modules/@bryntum/scheduler/scheduler.stockholm.css";
 
-:root {
-  font-family: Poppins, "Open Sans", Helvetica, Arial, sans-serif;
+#container {
+    margin         : 0;
+    display        : flex;
+    flex-direction : column;
+    height         : 100vh;
+    font-size      : 14px;
 }
 
-body {
-  margin: 0;
+/* Scheduler grid column styles for description */
+.b-grid-cell[data-column="description"] {
+    display       : block;
+    padding-block : .75em;
+
+    h3 {
+        margin-block : 0 .5em;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        margin-top: 0;
+        margin-bottom: 0.5em;
+    }
+
+    p {
+        margin-bottom: 0.5em;
+    }
+
+    ul, ol {
+        margin-bottom: 0.5em;
+        padding-left: 1.5em;
+    }
+
+    blockquote {
+        margin: 0.5em 0;
+        padding-left: 1em;
+        border-left: 3px solid #ddd;
+        font-style: italic;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-bottom: 0.5em;
+    }
+
+    table th,
+    table td {
+        border: 1px solid #ddd;
+        padding: 0.25em 0.5em;
+        text-align: left;
+    }
+
+    table th {
+        background-color: #f5f5f5;
+        font-weight: bold;
+    }
+
+    code {
+        background-color: #f5f5f5;
+        padding: 0.1em 0.3em;
+        border-radius: 3px;
+        font-family: 'Courier New', monospace;
+    }
+}
+
+/* TinyMCE field styles */
+.b-tinymcefield {
+    .tox.tox-tinymce {
+        width         : 100%;
+        border-radius : 2px;
+
+        &:not(.tox-tinymce-inline) {
+            border : 1px solid #d0d1d2;
+        }
+
+        &.tox-edit-focus {
+            border-color : rgba(254, 172, 49, 0.6);
+        }
+
+        .tox-edit-area::before {
+            border : none;
+        }
+    }
+}
+
+/* Event editor popup styles */
+.b-popup .b-tinymcefield {
+    .tox.tox-tinymce {
+        max-width: 100%;
+    }
+}
+
+/* Event tooltip enhancement */
+.event-tooltip {
+    max-width: 400px;
+    
+    h4 {
+        margin: 0 0 0.5em 0;
+        color: #333;
+    }
+
+    .event-description {
+        margin-top: 0.5em;
+        padding-top: 0.5em;
+        border-top: 1px solid #eee;
+        
+        h3 {
+            margin: 0 0 0.25em 0;
+            font-size: 0.9em;
+        }
+
+        p, ul, ol {
+            margin-bottom: 0.25em;
+            font-size: 0.85em;
+        }
+
+        table {
+            font-size: 0.8em;
+        }
+
+        blockquote {
+            margin: 0.25em 0;
+            padding-left: 0.5em;
+            border-left: 2px solid #ddd;
+            font-size: 0.8em;
+        }
+
+        code {
+            font-size: 0.75em;
+        }
+    }
+}
+
+/* Scheduler event bars with rich content */
+.b-sch-event-wrap {
+    .b-sch-event {
+        overflow: hidden;
+        
+        .b-sch-event-content {
+            .event-name {
+                font-weight: bold;
+                margin-bottom: 2px;
+            }
+            
+            .event-description-preview {
+                font-size: 0.8em;
+                color: rgba(255, 255, 255, 0.8);
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+    }
+}
+
+/* Resource column styling */
+.b-grid-cell[data-column="name"] {
+    font-weight: 600;
+}
+
+.b-grid-cell[data-column="type"] {
+    color: #666;
+    font-style: italic;
+}
+
+.b-grid-cell[data-column="capacity"] {
+    font-weight: bold;
+    color: #2196F3;
+}
+
+/* Event colors and styling */
+.b-sch-event.b-sch-color-red {
+    background: linear-gradient(135deg, #f44336 0%, #d32f2f 100%);
+}
+
+.b-sch-event.b-sch-color-blue {
+    background: linear-gradient(135deg, #2196F3 0%, #1976D2 100%);
+}
+
+.b-sch-event.b-sch-color-green {
+    background: linear-gradient(135deg, #4CAF50 0%, #388E3C 100%);
+}
+
+.b-sch-event.b-sch-color-purple {
+    background: linear-gradient(135deg, #9C27B0 0%, #7B1FA2 100%);
+}
+
+.b-sch-event.b-sch-color-orange {
+    background: linear-gradient(135deg, #FF9800 0%, #F57C00 100%);
+}
+
+.b-sch-event.b-sch-color-teal {
+    background: linear-gradient(135deg, #009688 0%, #00695C 100%);
+}
+
+.b-sch-event.b-sch-color-gray {
+    background: linear-gradient(135deg, #607D8B 0%, #455A64 100%);
+}
+
+.b-sch-event.b-sch-color-indigo {
+    background: linear-gradient(135deg, #3F51B5 0%, #303F9F 100%);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .b-grid-cell[data-column="description"] {
+        font-size: 0.9em;
+    }
+    
+    .b-tinymcefield .tox.tox-tinymce {
+        font-size: 0.9em;
+    }
+    
+    .event-tooltip {
+        max-width: 300px;
+    }
 }

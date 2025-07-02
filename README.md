@@ -1,21 +1,61 @@
-# Using the TinyMCE rich text editor in Bryntum Scheduler: Starter code
+# Using TinyMCE Rich Text Editor in Bryntum Scheduler
 
-This starter project was generated using the [Vite with JavaScript](https://vite.dev/guide/#scaffolding-your-first-vite-project) starter template.
+This project demonstrates how to integrate TinyMCE rich text editor with Bryntum Scheduler for enhanced resource descriptions and event details.
 
-## Getting started
+## Getting Started
 
-Install the dependencies by running the following command: 
+1. **Install Dependencies**
 
-```sh
-npm install
+   ```bash
+   npm install
+   ```
+
+2. **Install Bryntum Scheduler**
+
+   For trial version:
+
+   ```bash
+   npm install @bryntum/scheduler@npm:@bryntum/scheduler-trial@6.3.0-alpha-1
+   ```
+
+   For licensed version:
+
+   ```bash
+   npm install @bryntum/scheduler@6.3.0-alpha-1
+   ```
+
+3. **Configure TinyMCE API Key**
+
+   Replace `your-api-key` in the following files with your TinyMCE API key:
+   - `src/index.html` (line 12)
+
+4. **Run Development Server**
+
+   ```bash
+   npm run dev
+   ```
+
+5. **Open Browser**
+   Navigate to `http://localhost:5173`
+
+## Project Structure
+
+```
+├── src/
+|   ├── lib/
+│     └── TinyMceField.js     # Custom TinyMCE widget
+│   ├── index.html          # Main HTML file
+│   ├── main.js            # Scheduler application setup
+│   └── styles.css         # Styles and TinyMCE integration
+├── package.json
+├── vite.config.js
+└── README.md
 ```
 
-## Running the app
+## Sample Data
 
-Use the following command to run the local dev server:
+The demo includes:
 
-```sh
-npm run dev
-```
-
-Open `http://localhost:5173`. You'll see a blank white screen.
+- **Resources**: Meeting rooms, training facilities, creative spaces, phone booths
+- **Events**: Board meetings, client presentations, training sessions, interviews
+- **Rich Descriptions**: HTML formatted content with headings, lists, tables, and styling
