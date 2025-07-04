@@ -49,29 +49,16 @@ const scheduler = new Scheduler({
     ],
 
     resourceStore : {
-        readUrl  : 'resourcesSimple.json',
+        readUrl  : 'resources.json',
         autoLoad : true
     },
 
     eventStore : {
-        readUrl  : 'eventsSimple.json',
+        readUrl  : 'events.json',
         autoLoad : true
     },
 
     features : {
-        eventEdit : {
-            items : {
-                generalTab : {
-                    items : {
-                        descriptionField : {
-                            type   : 'tinymcefield',
-                            height : 300,
-                            label  : 'Description'
-                        }
-                    }
-                }
-            }
-        },
         eventTooltip : {
             template : ({ eventRecord }) => `
                 <div class="event-tooltip">
